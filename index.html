@@ -1,14 +1,133 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>clint side</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body{
+         
+margin-top:150px;
+background-color:#9f9f99;
+display:flex;
+                justify-content:center;
+}
+input[type="number"]{
+width:75%;
+background-color:#9f9f99;
+padding:10px;
+ margin-top:18px;
+ font-family:Algerian;
+ font-size:95%;
+ margin-left:50px;
+ margin-top:10px;
+ border-radius:2px;
+ }
+
+input[type="text"]{
+        width:75%;
+        margin-left:40px;
+        border-radius:2px;        
+padding:10px;
+ margin-top:18px;
+ font-family:Algerian;
+ font-size:95%;
+background-color:#9f9f99;
+margin-top:20px;
+}
+input{
+        border-style:none;
+}
+.main-container{
+        
+                display:flex;
+                justify-content:center;
+                height:410px;
+                width:550px;
+                background-color:rgb(255, 255, 255);
+                color:rgb(221, 132, 132);
+                box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2),0 8px 20px 0 rgba(0,0,0,0.2)
+                
+
+}
+.heading{
+             display:flex;
+           
+           justify-content:center;
+            
+            background-color:rgb(223, 176, 81);
+            width:550px;
+            color:black;
+             height:65px;
+            font-size:100%;
+            font-family:Georgia;
+             text-shadow: 2px 3px 4px rgb(40, 40, 42);
+             padding-top: 20px;
+
+        font-weight:bold;
+}
+
+
+
+ #btn {
+        margin-left: 45%;
+        background-color:#a6a2a2;
+        border-radius: 1px;
+        
+        border-style:none;
+        height:40px ;
+        width:210px;
+	padding:1px;
+        margin-top: -10px;
+ }            
+ #heading1{
+        display: flex;
+        justify-content:center;
+        margin-top:100px;
+        color: #9f9f99;
+ }
+ #checkbox{
+      margin-left:50px;
+      color: #9f9f99;
+      margin-top:10px;
+ }
+</style>
 </head>
 <body>
-    <h1>
-        Web Basics
-    </h1>
+
+<div class="main-container">
+<form>
+<div class="heading">
+<h3> CLIENT LOGIN <h3>
+</div>
+<div>
+        <i style='font-size:24px' class='fas'>&#xf406;</i>       
+ <label><input type="text" placeholder="username"></label>
+</div>
+<div>
+        <i style="font-size:24px" class="fa">&#xf023;</i> 
+<label><input type="number" placeholder="password"></label>
+</div>
+<div class="foot-container">
+	     
+
+<div>
+           
+
+        <label>
+                <div id="checkbox">
+
+            <br> <input type="checkbox"> Remember Me?</br>
+            <button id="btn">LOGIN</button>
+        </div>
+               
+             </label>
+            </div>
+           
+            <p id="heading1">   copyright@2018      </p>
+</form>
+</div>
+
+
 </body>
 </html>
